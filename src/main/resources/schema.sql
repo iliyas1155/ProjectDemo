@@ -1,0 +1,7 @@
+
+
+CREATE TABLE page (
+  id    BIGINT SERIAL NOT NULL,
+  title VARCHAR(256)  NOT NULL,
+  url   VARCHAR(256)  NOT NULL
+);
